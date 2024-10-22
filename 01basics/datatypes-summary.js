@@ -17,3 +17,34 @@
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+//  Stack (Primitive), Heap (Non-Primitive)
+
+let myname = "Rohan Kumar";
+
+let anothername = myname;
+anothername = "Kalua";
+
+console.log(myname);
+console.log(anothername);
+
+let user = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "rohan@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+// Stack:-
+
+// userTwo -- it will access the heap memory in which email and upi are stored
+// user    -- it will access the heap memory in which email and upi are stored
+// myname   
+// anothername
+// myname
+
