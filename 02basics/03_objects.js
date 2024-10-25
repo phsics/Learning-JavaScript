@@ -26,6 +26,8 @@ JsUser.greeting = function(){
 }
 
 JsUser.greetingTwo = function(){
+    // String interpolation
+    
     console.log(`Hello JS User, ${this.name}`);
 }
 console.log(JsUser.greeting());
