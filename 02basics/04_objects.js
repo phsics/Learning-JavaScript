@@ -73,3 +73,15 @@ const course = {
 const {courseInstructor: instructor} = course;
 console.log(instructor);
 
+// API: Application programming interface
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
