@@ -27,13 +27,14 @@
 //     console.log(`User power: ${power}`);
 // }
 
-const isUserloggedIn = true;
-const debitCard = true;
+// const isUserloggedIn = true;
+// const debitCard = true;
 
-if(isUserloggedIn && debitCard){
-    console.log("Allow to buy course");
-}
-else{
-    console.log("Not allowed to buy course");
-}
+// if(isUserloggedIn && debitCard){
+//     console.log("Allow to buy course");
+// }
+// else{
+//     console.log("Not allowed to buy course");
+// }
+
 
