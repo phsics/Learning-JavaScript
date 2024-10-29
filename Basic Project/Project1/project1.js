@@ -25,4 +25,3 @@ buttons.forEach(function(button){
         }
     })
 });
-
