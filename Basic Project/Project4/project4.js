@@ -15,12 +15,12 @@ let numGuesses = 1;
 let playGame = true;
 
 if(playGame){
-    submit.addEventListener('click',function(e){
+    submit.addEventListener('click', function(e) {
         e.preventDefault();
         const guess = parseInt(userInput.value);
-        // console.log(guess);
+        console.log(guess);
         validateGuess(guess);
-    })
+    });
 }
 function validateGuess(guess){
    
@@ -73,7 +73,7 @@ function endGame(){
     userInput.setAttribute('disabled', '');
     p.classList.add('button');
     p.innerHTML = `<h2 id = 
-    newGame">Start new Game</h2>`;
+    "newGame">Start new Game</h2>`;
     startOver.appendChild(p);
     playGame = false;
     newGame();
