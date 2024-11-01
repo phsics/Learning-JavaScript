@@ -1,0 +1,15 @@
+Global method that starts the processing of fetching a resource
+from the network, returning a promise which is fulfilled once the 
+response is available.
+
+fetch() promise only rejects when a network error is encountered
+(which is usually when there's a permissions issue or similar). 
+A fetch() promise does not reject on HTTP errors (404, etc.). 
+
+response = fetch('something')
+
+fetch:-
+
+Data:-                                      Web Browser/Node                  
+Onfulfilled[] (Promise ka resolve)          (Network request)
+OnRejection[] (Promise ka reject)
